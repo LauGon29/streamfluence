@@ -1,0 +1,407 @@
+#videoLayout1 {
+    position: absolute;
+    height: 450px;
+    width: 650px;
+    top: -10%;
+    /* left: 40%; */
+    border: 2px solid #a023ff;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+#homeBigScreen {
+    height: 90vh;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#30b7fe+100,a023ff+100 */
+    background: #30b7fe;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #30b7fe 100%, #a023ff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #30b7fe 100%, #a023ff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #30b7fe 100%, #a023ff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30b7fe', endColorstr='#a023ff', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.homeContent {
+    position: relative;
+    top: 20%;
+    z-index: 3;
+}
+
+#homeTitle {
+    font-size: 55px;
+    color: #fff;
+    line-height: 50px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-family: 'Passion One', cursive;
+}
+
+#titleParagraph {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 35px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.navFont {
+    color: #30b7fe;
+    letter-spacing: 1px;
+    margin-top: 6px;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#streamerHomeButton {
+    background-color: #a023ff;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    height: 60px;
+    margin: 10% auto;
+    padding: 15px;
+    width: 280px;
+}
+
+#twitchSectionImage {
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    max-width: 100%;
+    left: 15%;
+    border: 2px solid #6cccfe;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+    border-radius: 30px;
+}
+
+#brand123Container {
+    min-height: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#brand123Row {
+    margin: 0px;
+    margin-top: 250px;
+    padding: 0px;
+}
+
+.backgroundBrand123 {
+    background-color: #e5efff;
+    border-radius: 15px;
+    height: 200px;
+    margin: 0px;
+    padding: 40px 0 20px 0;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.brand123 {
+    padding: 15px;
+}
+
+.brand123 p {
+    line-height: 30px;
+    font-size: 18px;
+    color: #a3a3a3;
+}
+
+.brand123 h3 {
+    margin: 0 0 10px 0px;
+    font-size: 24px;
+    color: #30b7fe;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.brand123Trophy {
+    padding: 30px 0 30px 0;
+    font-size: 50px;
+    color: #6cccfe;
+}
+
+#sfBrandSlant {
+    position: absolute;
+    height: 1800px;
+    width: 2900px;
+    top: 40%;
+    left: -20%;
+    z-index: 0;
+}
+
+#platformsLineImage {
+    position: absolute;
+    width: 110%;
+    height: 95%;
+    bottom: -1%;
+    z-index: 0;
+}
+
+#platformThriveSection {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#30b7fe+100,a023ff+100 */
+    background: #30b7fe;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #30b7fe 100%, #a023ff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #30b7fe 100%, #a023ff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #30b7fe 100%, #a023ff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30b7fe', endColorstr='#a023ff', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    position: relative;
+}
+
+.thriveOnImages {
+    height: 250px;
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+    padding: 10px 10px 0 0;
+    margin-top: 50px;
+}
+
+#mixerImage {
+    margin-top: 90px;
+}
+
+#twitchImage {
+    margin-top: 100px;
+}
+
+footer {
+    bottom: -2%;
+}
+
+
+@media only screen and (max-width: 1720px) {
+    .backgroundBrand123 {
+        min-height: 350px;
+    }
+}
+
+@media only screen and (max-width: 1630px) {
+    #brand123Row {
+        margin-top: 180px;
+    }
+}
+
+@media only screen and (max-width: 1404px) {
+    #brand123Row {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 1580px) {
+    #videoLayout1 {
+        height: 350px;
+        width: 550px;
+    }
+}
+
+@media only screen and (max-width: 1441px) {
+
+
+    #titleParagraph {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1408px) {
+
+    #homeTitle {
+        font-size: 40px;
+    }
+
+    #titleParagraph {
+        font-size: 14px
+    }
+}
+
+@media only screen and (max-width: 1206px) {
+    #videoLayout1 {
+        height: 350px;
+        width: 50%;
+        right: -9%;
+    }
+}
+
+@media only screen and (max-width: 1175px) {
+    .brand123 p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1087px) {
+    .backgroundBrand123 {
+        height: 300px;
+    }
+
+    #brand123Row {
+        margin-top: 50px;
+    }
+
+    .brand123 p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1041px) {
+    #platformsLineImage {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+
+    #homeTitle {
+        font-size: 30px;
+    }
+
+    #videoLayout1 {
+        height: 300px;
+        width: 400px;
+        top: 20%;
+    }
+
+    #brandHomeButton {
+        left: 0%;
+    }
+
+    .backgroundBrand123 {
+        margin-bottom: 30px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #twitchSectionImage {
+        display: none;
+    }
+    #videoLayout1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 923px) {
+    #homeTitle {
+        font-size: 40px;
+    }
+    #titleParagraph {
+        font-size: 16px;
+    }
+    #brandHomeButton {
+        left: 10%;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .homeContent h1 {
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 784px) {
+    .brand123Trophy {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 725px) {
+    #titleParagraph {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 618px) {
+    #titleParagraph {
+        font-size: 14px;
+    }
+
+    #homeTitle {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 471px) {
+    #homeTitle {
+        font-size: 30px;
+    }
+
+    #brandHomeButton {
+        left: 0%;
+        top: 180%;
+    }
+}
+
+@media only screen and (max-width: 421px) {
+    #homeTitle {
+        font-size: 40px;
+    }
+
+    #brandprofile {
+        width: 250px;
+        top: 150%;
+    }
+
+    .backgroundBrand123 {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    #titleParagraph {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 337px) {
+
+    #titleParagraph {
+        display: none;
+    }
+
+    #homeTitle {
+        font-size: 30px;
+    }
+
+    #brandHomeButton {
+        left: 0%;
+        top: 100%;
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .homeContent {
+        top: 30%;
+    }
+    #titleParagraph {
+        width: auto;
+    }
+    #streamerHomeButton {
+        width: 340px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #homeTitle {
+        width: 750px;
+    }
+    #streamerHomeButton {
+        position: absolute;
+        top: 110%;
+        left: 11%;
+    }
+}

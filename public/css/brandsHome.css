@@ -1,0 +1,745 @@
+#homeBigScreen {
+    height: 90vh;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a023ff+100,08f8f8+100 */
+    background: #a023ff;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #a023ff 100%, #08f8f8 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #a023ff 100%, #08f8f8 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #a023ff 100%, #08f8f8 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a023ff', endColorstr='#08f8f8', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    padding: 0px;
+}
+
+.sec-top h1 {
+    padding-left: 0;
+}
+
+.homeContent {
+    position: relative;
+    top: 20%;
+    z-index: 3;
+}
+
+
+#homeTitle {
+    font-size: 55px;
+    color: #fff;
+    line-height: 50px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-family: 'Passion One', cursive;
+}
+
+#titleParagraph {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 35px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 30px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+#brandHomeButton {
+    background-color: #30b7fe;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    height: 60px;
+    margin: 10% auto;
+    padding: 20px;
+    width: 280px;
+}
+
+#streamerImage1 {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    max-width: 100%;
+    border: 2px solid #30b7fe;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+#twitchSectionImage {
+    position: absolute;
+    height: 400px;
+    width: 750px;
+    margin-top: 30px;
+    max-width: 100%;
+    left: 15%;
+    border: 2px solid #a023ff;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+    border-radius: 30px;
+}
+
+#brand123Container {
+    min-height: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#brand123Row {
+    margin: 0px;
+    margin-top: 250px;
+    padding: 0px;
+}
+
+.backgroundBrand123 {
+    background-color: #e5efff;
+    border-radius: 15px;
+    min-height: 415px;
+    margin: 0px;
+    padding: 20px 0 20px 0;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.brand123 {
+    padding: 15px;
+}
+
+#brand123Title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#brand123PTitle {
+    font-size: 18px;
+    color: #a3a3a3;
+}
+
+.brand123 p {
+    line-height: 30px;
+    font-size: 18px;
+    color: #a3a3a3;
+    width: 100%;
+}
+
+.brand123 h3 {
+    margin: 0 0 10px 0px;
+    font-size: 24px;
+    color: #a023ff;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.brand123Trophy {
+    padding: 30px 0 30px 0;
+}
+
+#sfBrandSlant {
+    position: absolute;
+    height: 130vh;
+    width: 330vh;
+    left: -5%;
+
+    z-index: 0;
+}
+
+#howItWorkTitle {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#howItWorksIcons {
+    font-size: 90px;
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.howItWorksLeft {
+    margin: 0 auto;
+}
+
+.howItWorksRight {
+    margin: 0 auto;
+}
+
+#howItWorksLeftP {
+    margin: 0 auto;
+    color: #fff;
+    font-size: 20px;
+}
+
+.howItWorksSteps1 {
+    color: #520091;
+    font-size: 16px;
+}
+
+.howItWorksSteps2 {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.stepsRowsSection {
+    margin-top: 60px;
+    padding: 20px 20px;
+    position: relative;
+}
+
+.stepsRowsSection__step-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.stepsRowsSection__step-content {
+    margin-top: 100px;
+}
+
+#HowItWorksSection {
+    min-height: 1250px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a023ff+100,08f8f8+100 */
+    background: #a023ff;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #a023ff 100%, #08f8f8 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #a023ff 100%, #08f8f8 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #a023ff 100%, #08f8f8 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a023ff', endColorstr='#08f8f8', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    padding-top: 30px;
+}
+
+#noTitleCastersSection {
+    background-color: #fff;
+    min-height: 400px;
+}
+
+@media only screen and (max-width: 1669px) {
+    #howItWorksStep1 {
+        top: 20%;
+    }
+}
+
+@media only screen and (max-width: 1630px) {
+    #brand123Row {
+        margin-top: 180px;
+    }
+}
+
+@media only screen and (max-width: 1580px) {
+    #streamerImage1  {
+        height: 350px;
+        width: 550px;
+
+    }
+}
+
+@media only screen and (max-width: 1574px) {
+    .brand123 p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1437px) {
+    #sfBrandSlant {
+        height: 220vh;
+        width: 350vh;
+        right: 15%;
+    }
+
+    #HowItWorksStep1Section {
+        left: -18%;
+        top: -10%;
+    }
+
+    #HowItWorksStep2Section {
+        left: -10%;
+        top: -3%;
+    }
+
+    #howItWorksStep1P {
+        margin-left: 50px;
+        top: 15%;
+    }
+
+    #howItWorksStep2P {
+        margin-left: 80px;
+    }
+
+    #howItWorksStep3P {
+        margin-left: 80px;
+    }
+
+    #howItWorksStep4P {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 1408px) {
+    #homeTitle {
+        font-size: 40px;
+        min-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1404px) {
+    #brand123Row {
+        margin-top: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 1312px) {
+    .brand123 p {
+        font-size: 15px;
+    }
+
+    .brand123 h3 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1302px) {
+    #titleParagraph {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1206px) {
+    #streamerImage1 {
+        height: 350px;
+        width: 50%;
+        right: -9%;
+    }
+}
+
+@media only screen and (max-width: 1167px) {
+    #titleParagraph {
+        font-size: 13px;
+    }
+
+    #brand123Title {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #titleParagraph {
+        width: auto;
+    }
+
+    #titleParagraph {
+        font-size: 16px;
+    }
+
+    .brand123 p {
+        font-size: 14px;
+    }
+
+    .brand123 h3 {
+        font-size: 25px;
+    }
+
+    .backgroundBrand123 {
+        height: 375px;
+    }
+}
+
+@media only screen and (max-width: 1087px) {
+    #brand123Row {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    #titleParagraph {
+        font-size: 16px;
+    }
+
+    #HowItWorksStep1Section {
+        left: -20%;
+        top: 1%;
+    }
+
+    #howItWorksStep1P {
+        left: 5%;
+        top: 15%;
+        width: 250px;
+    }
+
+    #HowItWorksStep2Section {
+        left: -10%;
+        top: 3%;
+    }
+
+    #howItWorksStep2P {
+        left: 10%;
+        width: 250px;
+    }
+
+    #HowItWorksStep3Section {
+        left: -5%;
+    }
+
+    #howItWorksStep3P {
+        left: 13%;
+        width: 250px;
+    }
+
+    #HowItWorksStep4Section {
+        left: 0%;
+    }
+
+    #howItWorksStep4P {
+        left: 10%;
+        width: 250px;
+    }
+
+    #sfBrandSlant {
+        left: -40%;
+        height: 250vh;
+    }
+
+    footer {
+        bottom: -5%;
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+    #homeTitle {
+        font-size: 30px;
+    }
+
+    #streamerImage1 {
+        height: 300px;
+        width: 400px;
+        top: 20%;
+    }
+}
+
+
+@media only screen and (max-width: 1008px) {
+    #brand123Container {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #sfBrandSlant {
+
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1007px) {
+    #brand123Container {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #twitchSectionImage {
+        left: 3%;
+        width: auto;
+        height: 400px;
+    }
+
+    #brand123Title {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    #brand123PTitle {
+        display: none;
+    }
+
+    .brand123 p {
+        font-size: 18px;
+    }
+
+    #homeBigImage {
+        display: none;
+    }
+
+    #sfBrandSlant {
+        display: none;
+    }
+
+    #brand123Row {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .backgroundBrand123 {
+        background-color: #e5efff;
+        border-radius: 15px;
+        margin-bottom: 40px;
+        min-height: 415px;
+        padding: 20px 0 20px 0;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .brand123 h3 {
+        margin: 0 0 10px 0px;
+        font-size: 24px;
+        color: #0c6dff;
+        font-weight: bolder;
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    #twitchSectionImage {
+        display: none;
+    }
+    #streamerImage1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 968px) {
+    #titleParagraph {
+        font-size: 14px;
+        width: auto;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 923px) {
+    #homeTitle {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 784px) {
+    .brand123Trophy {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 618px) {
+    #homeTitle {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 602px) {
+    #twitchSectionImage {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 590px) {
+    #titleParagraph {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 492px) {
+
+    #titleParagraph {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 471px) {
+    #homeTitle {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 421px) {
+    #homeTitle {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    #titleParagraph {
+        display: none;
+    }
+
+    #streamerImage1 {
+        display: none;
+    }
+
+    #howItWorkTitle {
+        font-size: 55px;
+        margin-left: 0px;
+    }
+
+    #titleParagraph {
+        font-size: 16px;
+    }
+
+    #HowItWorksStep1Section {
+        left: 15%;
+        top: 0%;
+    }
+
+    #howItWorksStep1P {
+        top: 20%;
+        left: -7%;
+        width: 250px;
+    }
+
+    #howItWorksStep1 {
+        left: -50%;
+    }
+
+    #howItWorksStep1 i {
+        margin-right: 40px;
+    }
+
+    .howItWorksIcons i {
+        margin-left: 00px;
+    }
+
+    #HowItWorksStep2Section {
+        left: 15%;
+        top: 10%;
+    }
+
+    #howItWorksStep2P {
+        top: 8%;
+        left: -7%;
+        width: 250px;
+    }
+
+    #howItWorksStep2 {
+        left: -50%;
+    }
+
+    #howItWorksStep2 i {
+        margin-right: 40px;
+    }
+
+    #HowItWorksStep3Section {
+        left: 15%;
+        top: 20%;
+    }
+
+    #howItWorksStep3P {
+        top: 8%;
+        left: -7%;
+        width: 250px;
+    }
+
+    #howItWorksStep3 {
+        left: -50%;
+    }
+
+    #howItWorksStep3 i {
+        margin-right: 40px;
+    }
+
+    #HowItWorksStep4Section {
+        left: 17%;
+        top: 29%;
+    }
+
+    #howItWorksStep4P {
+        top: 8%;
+        left: -7%;
+        width: 250px;
+    }
+
+    #howItWorksStep4 {
+        left: -50%;
+    }
+
+    #howItWorksStep4 i {
+        margin-right: 40px;
+    }
+
+    #sfBrandSlant {
+        display: none;
+    }
+
+    .backgroundBrand123 {
+        margin-bottom: 50px;
+    }
+
+    .backgroundBrand123 {
+        width: 280px;
+    }
+
+    .brand123 p {
+        width: 260px;
+    }
+}
+
+@media only screen and (max-width: 337px) {
+
+    #titleParagraph {
+        display: none;
+    }
+    
+    #homeTitle {
+        font-size: 30px;
+    }
+
+    #brand123Container {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .backgroundBrand123 {
+        margin-bottom: 40px;
+        width: 250px;
+    }
+
+    .brand123 p {
+        font-size: 14px;
+        width: 225px;
+    }
+
+    #homeBigImage {
+        display: none;
+    }
+
+    #sfBrandSlant {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #brandHomeButton {
+        width: 340px;
+    }
+
+    #homeContent {
+        top: 30%;
+    }
+}
+
+@media screen and (min-width: 969px) {
+    .sec-top h1 {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #brandHomeButton {
+        position: absolute;
+        top: 100%;
+        left: 11%;
+    }
+    #titleParagraph {
+        min-width: 425px;
+    }
+    .stepsRowsSection__step-image {
+        position: initial;
+        left: 0;
+        transform: none;
+    }
+    .stepsRowsSection__step-content {
+        margin-top: 0;
+    }
+}
